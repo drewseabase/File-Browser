@@ -1,4 +1,5 @@
 {
+    "introduction": "Hello!",
     "name": "Drew Seabase",
     "age" : 23,
     "isInSchool" : true,
