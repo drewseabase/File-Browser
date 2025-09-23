@@ -17,5 +17,24 @@
     <img src = "hello_drew.png" alt = "Hello Drew" width = "300">
     <p></p>
     <a href = "hello.pdf" target = "_blank"> Open the PDF</a>
+    <p></p>
+    <title> File Table</title>
+    <div class ="row">
+      <div class = "column"></div>
+      <div class = "column"></div>
+      <div class = "column"></div>
+      <div class = "column"></div>
+    </div>
+
+    .column{
+      float: left;
+      width: 25%;
+    }
+
+    .row:after{
+      content:"";
+      display: table;
+      clear: both;
+    }
 </body>
 </html>
